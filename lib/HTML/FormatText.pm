@@ -42,7 +42,7 @@ L<HTML::Formatter>
 
 =head1 COPYRIGHT
 
-Copyright (c) 1995-1998 Gisle Aas. All rights reserved.
+Copyright (c) 1995-1999 Gisle Aas. All rights reserved.
 
 This library is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself.

@@ -1,9 +1,12 @@
 1999-12-16   Gisle Aas <gisle@aas.no>
 
-   Release HTML-Format-1.2x
+   Release HTML-Format-1.22
 
    Splitted off HTML::Format* modules from HTML-Tree when Sean M. Burke
-   took over maintainance.
+   took over maintainance.  You should have HTML-Tree version 0.61 or
+   better installed before installing this.
+
+   Added some simple formatter tests.
 
 
 

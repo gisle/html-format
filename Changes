@@ -1,6 +1,15 @@
+1999-12-16   Gisle Aas <gisle@aas.no>
+
+   Release HTML-Format-1.2x
+
+   Splitted off HTML::Format* modules from HTML-Tree when Sean M. Burke
+   took over maintainance.
+
+
+
 1999-12-15   Gisle Aas <gisle@aas.no>
 
-   Release 0.53
+   Release HTML-Tree-0.53
 
    Make it compatible with HTML-Parser-3.00
 

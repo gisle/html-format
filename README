@@ -1,26 +1,11 @@
-HTML-Tree
----------
+HTML-Format
+-----------
 
-This is a collection of modules that represent, create and extract
-information from HTML syntax trees.  These modules used to be part of
-the libwww-perl distribution, but are now unbundled in order to
-facilitate a separate development track.  Bug reports and discussions
-about these modules can still be sent to the <libwww-perl@ics.uci.edu>
-mailing list.
+This is a collection of modules that formats text from HTML syntax
+trees. Bug reports and discussions about these modules can be sent to
+the <libwww@perl.org> mailing list.
 
-The modules present in this collection are:
-
-  HTML::Element - represents the nodes of the HTML syntax trees.  The
-        elements have other elements and text segments as children.
-        The HTML::Element class have methods to extract information
-        and to manipulate the structure of the tree.
-
-  HTML::TreeBuilder - an HTML::Parser subclass that builds an HTML
-        syntax tree from HTML document text.  The idea was that it
-        should manage to construct all the nodes that was not
-        explicitly mentioned in the source too.
-
-  HTML::AsSubs - Easy way to build a syntax tree by nesting functions.
+The modules present in this package are:
 
   HTML::Formatter - Base class for various formatters.  Formatters
         traverse a syntax tree and produce some textual output.  None
@@ -36,10 +21,10 @@ The modules present in this collection are:
 PREREQUISITES
 
 In order to install and use this package you will need Perl version
-5.004 or better.  You will also need to have the HTML-Parser
-distribution installed.  If you intend to use the PostScript formatter
-you need the Font-AFM distribution.  All of these should be available
-from CPAN.
+5.004 or better.  You will also need to have the HTML-Tree
+distribution (version 0.61 or better) installed.  If you intend to use
+the PostScript formatter you need the Font-AFM distribution.  All of
+these should be available from CPAN.
 
 
 
@@ -56,7 +41,7 @@ Just follow the usual procedure:
 
 COPYRIGHT
 
-  © 1995-1998 Gisle Aas. All rights reserved.
+  © 1995-1999 Gisle Aas. All rights reserved.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

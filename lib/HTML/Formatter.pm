@@ -26,7 +26,7 @@ L<HTML::FormatText>, L<HTML::FormatPS>, L<HTML::Element>
 
 =head1 COPYRIGHT
 
-Copyright (c) 1995-1999 Gisle Aas. All rights reserved.
+Copyright (c) 1995-2000 Gisle Aas. All rights reserved.
 
 This library is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself.
@@ -122,8 +122,12 @@ sub end
 }
 
 sub html_start { 1; }  sub html_end {}
-sub head_start { 0; }
 sub body_start { 1; }  sub body_end {}
+
+# some elements that we don't want to render anyway
+sub head_start { 0; }
+sub script_start { 0; }
+sub style_start  { 0; }
 
 sub header_start
 {
